@@ -1,9 +1,17 @@
 body {
-    background: url(spices-img.jpg);
+    margin: none;
+    border: none;
+}
+
+.content-div {
+    background: url(spices-img2.jpg.crdownload);
     background-size: cover;
     font-family: 'Merienda', cursive;
+    font-weight: bolder;
     color: white;
     text-align: center;
+    margin: none;
+    padding: 150px;
 }
 
 .apply-btn {
@@ -11,4 +19,5 @@ body {
     background: white;
     border: none;
     font-family: inherit;
+    font-weight: inherit;
 }
