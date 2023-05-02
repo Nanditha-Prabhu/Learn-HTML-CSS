@@ -1,4 +1,8 @@
 1. personal website
+This is a simple personal website I created while learning WebD from a tutorial.
+https://thunderous-faloodeh-ee32dc.netlify.app/
 2. google front Page
 3. business card
+This is a simple business-card created when i was learning html-css through a tutorial and later I deployed it on netlify through github.
+https://glowing-sawine-708357.netlify.app/
 4. exploration site
