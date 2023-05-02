@@ -1,0 +1,14 @@
+body {
+    background: url(spices-img.jpg);
+    background-size: cover;
+    font-family: 'Merienda', cursive;
+    color: white;
+    text-align: center;
+}
+
+.apply-btn {
+    padding: 8px 16px;
+    background: white;
+    border: none;
+    font-family: inherit;
+}
