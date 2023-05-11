@@ -1,23 +1,40 @@
+/* font face property is used to make that font available to the stylesheet */
+@font-face {
+    /* ttf: true type font file */
+    src: url("starlight-personal-use/StarlightDEMO.ttf");
+    font-family: Starlight;
+}
+
 body {
     margin: none;
     border: none;
 }
 
 .content-div {
-    background: url(spices-img2.jpg.crdownload);
+    background: url(spices-img2.jpg);
     background-size: cover;
     font-family: 'Merienda', cursive;
     font-weight: bolder;
     color: white;
     text-align: center;
     margin: none;
-    padding: 150px;
+    padding: 300px;
 }
 
 .apply-btn {
     padding: 8px 16px;
     background: white;
     border: none;
+    /* inherit keyword will inherit attributes from its parent tag */
+    /* else you can explicitly mention the font used */
     font-family: inherit;
     font-weight: inherit;
+}
+
+h3 {
+    font-family: Starlight;
+}
+
+.cta {
+    font-size: 70px;
 }
