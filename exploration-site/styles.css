@@ -12,11 +12,12 @@ body {
 }
 
 .content-div {
-    background: url(spices-img2.jpg);
+    /* downloaded gif from giphy.com by right click, save img as */
+    background: url(idligif.gif);
     background-size: cover;
     font-family: 'Merienda', cursive;
     font-weight: bolder;
-    color: white;
+    color: #5FB16E;
     text-align: center;
     margin: none;
     padding: 300px;
@@ -26,6 +27,7 @@ body {
     padding: 8px 16px;
     background: white;
     border: none;
+    color: #5FB16E;
     /* inherit keyword will inherit attributes from its parent tag */
     /* else you can explicitly mention the font used */
     font-family: inherit;
