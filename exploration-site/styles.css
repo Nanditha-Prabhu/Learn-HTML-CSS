@@ -7,20 +7,28 @@
 }
 
 body {
-    margin: none;
-    border: none;
-}
-
-.content-div {
-    /* downloaded gif from giphy.com by right click, save img as */
-    background: url(idligif.gif);
-    background-size: cover;
+    margin: 0;
     font-family: 'Merienda', cursive;
     font-weight: bolder;
     color: #5FB16E;
     text-align: center;
-    margin: none;
-    padding: 300px;
+}
+
+#herocontent-div {
+    /* downloaded gif from giphy.com by right click, save img as */
+    /* usually the moving images or gifs will be in webp format */
+    background: url(idligif.gif); 
+    background-size: cover;
+    margin: 0;
+    padding: 180px;
+}
+
+.shadow {
+    /* this is a utility class */
+    /* utility class is a class which contains single property and can be reused */
+    text-shadow: 3px 1px 2px white;
+    /* syntax of text shadow: <px towards right> <px towards down> <blur extent> <colour>*/
+    /* negative values of first 2 is for its opposite direction */
 }
 
 .apply-btn {
@@ -35,6 +43,7 @@ body {
 }
 
 h3 {
+    /* usage of downloaded font */
     font-family: Starlight;
 }
 
